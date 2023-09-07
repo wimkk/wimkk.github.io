@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            poppins: ["Poppins"]
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d"
+            }
+          }
+        }
+      };
+    </script>
+    <title>Wimk Contact</title>
+  </head>
+  <body class="bg-gradient-to-r from-slate-900 to-slate-700">
+    
+    <div class="grid  place-items-center ">
+      <button onclick="window.location.href='/index.html';" type="button" class="mb-3 mr-2 mt-3 flex items-center rounded-lg bg-gradient-to-r from-blue-500 to-sky-800 px-5 py-2.5 text-center font-bold text-white shadow-lg shadow-blue-500/50 duration-500 ease-in-out hover:scale-105 hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-800">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-5 w-5" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M12.74 2.32a1 1 0 0 0-1.48 0l-9 10A1 1 0 0 0 3 14h2v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7h2a1 1 0 0 0 1-1 1 1 0 0 0-.26-.68z"></path></svg>Home
+    </button>
+      <div class="cursor-default mt-48 select-none space-y-2 rounded-sm bg-[#f2f3f5] p-4 dark:bg-[#2b2d31] shadow-xl">
+        <p class="text-xs font-semibold uppercase text-[#4e5058] dark:text-[#b5bac1]">You've been invited to join a server</p>
+        <div class="flex  items-center justify-between gap-16">
+          <div class="flex items-center gap-4">
+            <img src="https://cdn.discordapp.com/icons/880212316912754778/be43c34f7ab418c403ef49dc769fd04b.webp?size=1024&width=0&height=256" alt="Discord" class="h-14 w-14 rounded-xl" draggable="false" />
+            <div>
+              <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/9UPFFTU3Wk"><h1 class="cursor-pointer font-normal text-[#060607] hover:underline dark:text-white">wimk services</h1></a>
+              <div class="flex items-center justify-between gap-3 text-xs">
+                <p class="text-[#80848e]">
+                  <span class="inline-flex"
+                    ><svg class="h-[0.6rem] w-[0.6rem] fill-[#23a559]" stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 23.05C127.5 23.05 23.05 127.5 23.05 256S127.5 488.9 256 488.9 488.9 384.5 488.9 256 384.5 23.05 256 23.05z"></path></svg
+                  ></span>
+                  120 Online
+                </p>
+                <p class="text-[#80848e]">
+                  <span class="inline-flex"
+                    ><svg class="h-[0.6rem] w-[0.6rem] fill-[#b5bac1] dark:fill-[#4e5058]" stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 23.05C127.5 23.05 23.05 127.5 23.05 256S127.5 488.9 256 488.9 488.9 384.5 488.9 256 384.5 23.05 256 23.05z"></path></svg
+                  ></span>
+                  560 Members
+                </p>
+              </div>
+            </div>
+          </div>
+          <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/9UPFFTU3Wk"><button class="focus-visible:ring-ring ring-offset-background inline-flex h-10 items-center justify-center rounded-md bg-[#248046] px-4 py-2 text-sm font-medium text-[#e9ffec] transition-colors hover:bg-[#1a6334] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 transform active:scale-75 transition-transform">Join</button></a>
+        </div>
+          <div class="flex items-center justify-between gap-16">
+            <div class="flex items-center gap-4">
+              <img src="https://cdn.discordapp.com/avatars/874037868757127198/4239741b6a5992313f72230c089d4d01.webp?size=1024&width=0&height=256" alt="Discord" class="h-14 w-14 rounded-xl" draggable="false" />
+              <div>
+                <h1 class="cursor-pointer font-normal text-white hover:underline">wimk</h1>
+                <div class="flex items-center justify-between gap-3 text-xs">
+                  <h1 id="username" class="cursor-pointer font-normal text-gray-300 hover:underline">wimkk</h1>
+                </div>
+              </div>
+              
+            </div>
+            <a onclick="CopyToClipboard('username');return false;"><button class="focus-visible:ring-ring ring-offset-background inline-flex h-10 items-center justify-center rounded-md bg-[#248046] px-4 py-2 text-sm font-medium text-[#e9ffec] transition-colors hover:bg-[#1a6334] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 transform active:scale-75 transition-transform">Copy Username</button></a>          </div>
+      </div>
+      <div class="cursor-default mt-3 select-none space-y-2 rounded-lg p-4 bg-neutral-900 shadow-xl">
+        <div class="flex  items-center justify-between gap-16">
+          <div class="flex items-center gap-4">
+            <img src="https://yt3.googleusercontent.com/XfRNwiMaCcD9a4VZvazL9M-faks_9jg8UJL-INWeii143dxlZYsus0eRpTW4aGE-cDQkpUEKw4A=s176-c-k-c0x00ffffff-no-rj" alt="Discord" class="h-14 w-14 rounded-full" draggable="false" />
+            <div>
+              <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/9UPFFTU3Wk"><h1 class="cursor-pointer font-normal text-[#060607] hover:underline dark:text-white">@wimk</h1></a>
+              <div class="flex items-center justify-between gap-3 text-xs">
+                <p class="text-zinc-400">
+                  169 subscribers 
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@wimk?sub_confirmation=1"><button class="focus-visible:ring-ring ring-offset-background inline-flex h-10 items-center justify-center rounded-full bg-zinc-100 px-10 py-2 text-sm font-medium text-neutral-900 transition-colors hover:bg-zinc-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 transform active:scale-75 ">Subscribe</button></a>
+        </div>
+      </div>
+      
+      <button onclick="window.location.href='https://twitter.com/wimkEye?ref_src=twsrc%5Etfw';" type="button" class="mb-3 mr-2 mt-3 flex items-center rounded-lg bg-gradient-to-r from-blue-500 to-sky-800 px-6 py-2.5 text-center font-bold text-white shadow-lg shadow-blue-500/50 duration-500 ease-in-out hover:scale-105 hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-800">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg>Follow Twitter
+    </button>
+        <button onclick="window.location.href='https://twitch.tv/wimkk';" type="button" class="mb-2 mr-3 flex items-center rounded-lg bg-gradient-to-r from-purple-500 to-fuchsia-800 px-6 py-2.5 text-center font-bold text-white shadow-lg shadow-purple-500/50 duration-500 ease-in-out hover:scale-105 hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-purple-800">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M4.265 3 3 6.236v13.223h4.502V21l2.531.85 2.392-2.391h3.658l4.923-4.924V3H4.265zm15.052 10.691-2.813 2.814h-4.502l-2.391 2.391v-2.391H5.813V4.688h13.504v9.003zm-2.812-5.767v4.923h-1.688V7.924h1.688zm-4.502 0v4.923h-1.688V7.924h1.688z"></path></svg>Follow Twitch </button>
+
+    </div>
+    <script>
+      function CopyToClipboard(id) {
+        var text = document.getElementById(id).innerText;
+        navigator.clipboard.writeText(text).then(function() {
+            console.log('Copying to clipboard was successful!');
+        }, function(err) {
+            console.error('Could not copy text: ', err);
+        });
+    }
+      </script>
+  </body>
+</html>

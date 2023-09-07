@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            poppins: ["Poppins"]
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d"
+            }
+          }
+        }
+      };
+    </script>
+    <title>Static Template</title>
+  </head>
+
+  <body class="bg-gradient-to-r from-slate-900 to-slate-700">
+    <div class="grid  place-items-center bg-gradient-to-r from-slate-900 to-slate-700">
+
+        <div class="container mx-auto px-6 py-8 flex flex-col items-center">
+            <button onclick="window.location.href='/index.html';" type="button" class="mb-3 mr-2 mt-3 flex items-center rounded-lg bg-gradient-to-r from-blue-500 to-sky-800 px-5 py-2.5 text-center font-bold text-white shadow-lg shadow-blue-500/50 duration-500 ease-in-out hover:scale-105 hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-5 w-5" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M12.74 2.32a1 1 0 0 0-1.48 0l-9 10A1 1 0 0 0 3 14h2v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7h2a1 1 0 0 0 1-1 1 1 0 0 0-.26-.68z"></path></svg>Home
+            </button>
+        <h1 class="text-center text-2xl font-semibold capitalize text-white lg:text-3xl">Pricing Plan</h1>
+
+        <p class="mx-auto mt-4 max-w-2xl text-center text-gray-300 xl:mt-6">I make thumbnails, I do have a free trail which you can get once to see the quality of the thumbnails. After that its <span class="rounded-md bg-green-800 p-1"> 4$ per thumbnail</span> or you can do a custom bulk order which will lower the price</p>
+
+        <div class="mt-6 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:mt-12 xl:gap-12">
+          <div class="w-full space-y-8 rounded-lg border border-gray-700 bg-gray-800 p-8 text-center shadow-lg duration-500 ease-in-out hover:scale-105">
+            <p class="font-medium uppercase text-gray-300">Trail Thumbnails</p>
+
+            <h2 class="text-4xl font-semibold uppercase text-green-400">$0</h2>
+
+            <p class="font-medium text-gray-300">1 Time Purchase</p>
+
+            <button class="mt-10 w-full transform rounded-md bg-blue-600 px-4 py-2 capitalize tracking-wide text-white transition-colors duration-300 hover:bg-blue-500 focus:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Buy Now</button>
+          </div>
+
+          <div class="w-full space-y-8 rounded-lg bg-gradient-to-b from-blue-600 to-blue-900 p-8 text-center shadow-lg duration-500 ease-in-out hover:scale-105">
+            <p class="font-medium uppercase text-gray-200">Premium Thumbnails</p>
+
+            <h2 class="text-5xl font-bold uppercase text-green-300">$4</h2>
+
+            <p class="font-medium text-gray-200">Per Thumbnail</p>
+
+            <button class="mt-10 w-full transform rounded-md bg-white px-4 py-2 capitalize tracking-wide text-blue-500 transition-colors duration-300 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring focus:ring-gray-200 focus:ring-opacity-80">Buy Now</button>
+          </div>
+
+          <div class="w-full space-y-8 rounded-lg border border-gray-700 bg-gray-800 p-8 text-center shadow-lg duration-500 ease-in-out hover:scale-105">
+            <p class="font-medium uppercase text-gray-300">Bulk Order</p>
+
+            <h2 class="text-4xl font-semibold uppercase text-green-400">$Custom</h2>
+
+            <p class="font-medium text-gray-300">Contact me to talk about the price</p>
+
+            <button class="mt-10 w-full transform rounded-md bg-blue-600 px-4 py-2 capitalize tracking-wide text-white transition-colors duration-300 hover:bg-blue-500 focus:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Contact Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

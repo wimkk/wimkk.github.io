@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            poppins: ["Poppins"]
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d"
+            }
+          }
+        }
+      };
+    </script>
+    <title>Static Template</title>
+  </head>
+
+  <body>
+    <div class="grid  place-items-center bg-gradient-to-r from-slate-900 to-slate-700">
+            <button onclick="window.location.href='/index.html';" type="button" class="mb-3 mr-2 mt-3 flex items-center rounded-lg bg-gradient-to-r from-blue-500 to-sky-800 px-5 py-2.5 text-center font-bold text-white shadow-lg shadow-blue-500/50 duration-500 ease-in-out hover:scale-105 hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-800">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-5 w-5" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M12.74 2.32a1 1 0 0 0-1.48 0l-9 10A1 1 0 0 0 3 14h2v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7h2a1 1 0 0 0 1-1 1 1 0 0 0-.26-.68z"></path></svg>Home
+            </button>
+        <p class="mx-auto mt-4 max-w-2xl text-center text-gray-300 xl:mt-6">Here are some example thumbnails I have made so far</p>
+
+        <div class="container mx-auto py-2 lg:px-32 lg:pt-12">
+            <div class="-m-1 flex flex-wrap md:-m-2">
+          
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery03/03ef0c95.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery03/03ef0c95.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+          
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/c2d656e2.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/c2d656e2.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery03/35b36948.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery03/35b36948.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+          
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/d2747dd1.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/d2747dd1.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery03/d78ff053.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery03/d78ff053.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+          
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/ba92bbd7.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/ba92bbd7.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery03/fd4470a8.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery03/fd4470a8.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/bcdafba0.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/bcdafba0.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery03/b58ff1d6.png?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery03/b58ff1d6.png?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/311b33a5.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/311b33a5.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery03/f2549963.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery03/f2549963.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/cc0c13c7.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/cc0c13c7.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery03/92fc5f8a.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery03/92fc5f8a.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/2139c178.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/2139c178.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery03/9aea60ba.png?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery03/9aea60ba.png?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/d8fa55f2.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/d8fa55f2.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              
+              <div class="flex w-1/2 flex-wrap duration-500 ease-in-out mb-3 hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src="https://wimk.carrd.co/assets/images/gallery04/7304dac5.jpg?v=8e8c9cb9"
+                    onclick="showModal('https://wimk.carrd.co/assets/images/gallery04/7304dac5.jpg?v=8e8c9cb9')" />
+                </div>
+              </div>
+              <!-- <div class="flex w-1/2 flex-wrap duration-500 ease-in-out hover:scale-105 ">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="gallery"
+                    class="block h-full w-full rounded-lg object-cover object-center shadow-lg"
+                    src=""
+                    onclick="showModal('')" />
+                </div>
+              </div> -->
+              
+              
+              
+              
+              <div
+              id="modal"
+              class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center"
+            >
+              <a
+                class="fixed z-90 top-6 right-8 text-white text-5xl font-bold"
+                href="javascript:void(0)"
+                onclick="closeModal()"
+                >&times;</a
+              >
+        
+              <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover rounded-md" />
+            </div>
+             
+            </div>
+          </div>
+
+    </div>
+    <script>
+        var modal = document.getElementById("modal");
+  
+        var modalImg = document.getElementById("modal-img");
+  
+        function showModal(src) {
+          modal.classList.remove("hidden");
+          modalImg.src = src;
+        }
+modal.addEventListener('click', function(event) {
+  if (event.target === modal) {
+    closeModal();
+  }
+});
+  
+        function closeModal() {
+          modal.classList.add("hidden");
+        }
+      </script>
+  </body>
+</html>
